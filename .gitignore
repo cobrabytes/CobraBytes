@@ -1,0 +1,26 @@
+src/*.exe
+src/CobraBytes
+src/CobraBytesd
+src/test_CobraBytes
+src/build.h
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.CobraBytes
+#compilation and Qt preprocessor part
+*.qm
+Makefile
+BREAKBITS-qt
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+#mac specific
+.DS_Store
+build
+
+!src/leveldb/Makefile
