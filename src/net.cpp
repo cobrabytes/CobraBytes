@@ -1237,8 +1237,10 @@ void MapPort()
 // The first name is used as information source for addrman.
 // The second name should resolve to a list of seed addresses.
 static const char *strDNSSeed[][2] = {
-//    {"cobrabytes.hosthampster.com", "cobrabytes.hosthampster.com"},
-//    {"188.166.175.90", "188.166.175.90"},
+    {"cobrabytes.hosthampster.com", "cobrabytes.hosthampster.com"},
+    {"188.166.175.90", "188.166.175.90"},
+    {"cobrabytes02.ddns.net", "cobrabytes02.ddns.net"},
+
 };
 
 void ThreadDNSAddressSeed(void* parg)
